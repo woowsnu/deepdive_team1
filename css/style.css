@@ -6,8 +6,9 @@
     --point-text: #ff4081;
 
     /* 버튼 */
-    --button-txt1: #1d1d1d;
-    --button-txt2: #555555;
+    --button-txt-black: #1d1d1d;
+    --button-txt-gray: #555555;
+    --button-txt-white: #ffffff;
     --button-primary: #ff4081;
     --button-sub: #ffe5ee;
     --button-gray1: #dcdcdc;

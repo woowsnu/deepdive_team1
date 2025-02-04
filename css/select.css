@@ -1,0 +1,8 @@
+.select {
+    display: flex;
+    padding: 0px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--gray4, #8D8D8D);
+    align-items: center;
+    gap: 10px;
+}
