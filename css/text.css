@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .txt-type {
   width: 848px;
   color: #000;
@@ -8,3 +9,36 @@
   line-height: 150%;
   text-transform: capitalize;
 }
+=======
+.text-base {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.72px;
+    letter-spacing: -0.2px;
+}
+
+.text-sm {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.72px;
+    letter-spacing: -0.2px;
+}
+
+.text-xs {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.72px;
+    letter-spacing: -0.2px;
+}
+
+.text-xxs {
+    color: #000;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20.72px;
+    letter-spacing: -0.2px;
+}
+>>>>>>> 232aed6e34ffc8fca91d41d1f251b1d2171fc45f

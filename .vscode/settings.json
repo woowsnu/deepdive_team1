@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
   "figma.assetExportDirectory": "/images",
   "figma.autocompleteBlocks": true
 }
+=======
+    "figma.assetExportDirectory": "/images",
+    "figma.autocompleteBlocks": true
+}
+>>>>>>> 232aed6e34ffc8fca91d41d1f251b1d2171fc45f

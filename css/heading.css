@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heading-type1 {
   width: 848px;
   color: #000;
@@ -7,4 +8,36 @@
   font-weight: 700;
   line-height: 150%;
   text-transform: capitalize;
+=======
+.h_type1 {
+    color: #2D3035;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.68px;
+    letter-spacing: -0.2px;
+}
+
+.h_type2 {
+    color: #2D3035;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.68px;
+    letter-spacing: -0.2px;
+}
+
+.h_type3 {
+    color: #2D3035;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.68px;
+    letter-spacing: -0.2px;
+}
+
+.h_type4 {
+    color: #2D3035;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.68px;
+    letter-spacing: -0.2px;
+>>>>>>> 232aed6e34ffc8fca91d41d1f251b1d2171fc45f
 }
