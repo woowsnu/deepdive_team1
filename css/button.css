@@ -1,0 +1,51 @@
+.btn-arrow {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--button-color3, #dcdcdc);
+  background: url(../images/ico_arrow.svg) no-repeat center var(--gray-gray-0, #fff);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.btn-cart {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--button-color3, #dcdcdc);
+  background: url(../images/cart.svg) no-repeat center var(--gray-gray-0, #fff);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.btn-chatting {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--button-color3, #dcdcdc);
+  background: url(../images/chatting.svg) no-repeat center var(--gray-gray-0, #fff);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.btn-bell {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--button-color3, #dcdcdc);
+  background: url(../images/bell.svg) no-repeat center var(--gray-gray-0, #fff);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
