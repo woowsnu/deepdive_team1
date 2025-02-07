@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Figma Styles of your File */
 :root {
   /* Colors */
@@ -67,30 +66,24 @@
   --h4-font-weight: 700;
   --h4-font-style: normal;
 
-  /* Effects */
-=======
-/* Figma Styles of your file */
-
-:root {
   /* 텍스트 */
   --main-text: #1d1d1d;
   --sub-text1: #555555;
   --sub-text2: #d9d9d9;
   --point-text: #ff4081;
 
-    /* 버튼 */
-    --button-txt1: #1d1d1d;
-    --button-txt2: #555555;
-    --button-primary: #ff4081;
-    --button-sub: #ffe5ee;
-    --button-gray1: #dcdcdc;
-    --button-gray2: #f3f3f3;
-    /* 서식 */
-    
-    /* 선색 */
-    --gray1: #f3f3f3;
-    --gray2: #dcdcdc;
-    --gray3: #c3c4c8;
-    --gray4: #8d8d8d;
->>>>>>> 232aed6e34ffc8fca91d41d1f251b1d2171fc45f
+  /* 버튼 */
+  --button-txt1: #1d1d1d;
+  --button-txt2: #555555;
+  --button-primary: #ff4081;
+  --button-sub: #ffe5ee;
+  --button-gray1: #dcdcdc;
+  --button-gray2: #f3f3f3;
+  /* 서식 */
+
+  /* 선색 */
+  --gray1: #f3f3f3;
+  --gray2: #dcdcdc;
+  --gray3: #c3c4c8;
+  --gray4: #8d8d8d;
 }
