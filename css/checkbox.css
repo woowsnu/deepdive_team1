@@ -1,26 +1,32 @@
 :root {
-  --offImage: url(../images/ico_more.svg);
-  --onImage: url(../images/ico_play.svg);
-  --fontSize: 15px;
-  --beforeColor: red;
-  --afterColor: blue;
-  --padding: 20px;
+  --checkoffImage: url(../images/ico_check_off.svg);
+  --checkonImage: url(../images/ico_check_on.svg);
+  --checkfontSize: 15px;
+  --checkbeforeColor: red;
+  --checkafterColor: blue;
+  --checkPl: 20px;
+  --checkHeight : 24px;
 }
+
 .checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
   overflow: hidden;
   + label {
-    padding-left: var(--padding);
-    background: var(--offImage) no-repeat left;
-    font-size: var(--fontSize);
-    color: var(--beforeColor);
+    display: inline-flex;
+    padding-left: var(--checkPl);
+    background: var(--checkoffImage) no-repeat left;
+    font-size: var(--checkfontSize);
+    color: var(--checkbeforeColor);
+    height: var(--checkHeight);
   }
   &:checked {
     + label {
-      color: var(--afterColor);
-      background: var(--onImage) no-repeat left;
+      color: var(--checkafterColor);
+      background: var(--checkonImage) no-repeat left;
     }
   }
 }
+
+

@@ -1,89 +1,176 @@
 /* Figma Styles of your File */
 :root {
   /* Colors */
-  --main-text: #1d1d1d;
-  --sub-text1: #555555;
-  --sub-text2: #d9d9d9;
-  --point-text: #ff4081;
-  --button-text-1: #1d1d1d;
-  --button-text2: #555555;
-  --button-color: #ff4081;
-  --button-color2: #ffe5ee;
-  --button-color3: #dcdcdc;
-  --button-color4: #f3f3f3;
-  --gray1: #f3f3f3;
-  --gray2: #dcdcdc;
-  --gray3: #c3c4c8;
-  --gray4: #8d8d8d;
-  --select: #8d8d8d;
-  --formff: #ffffff;
-  --formf3: #f3f3f3;
-  --form55: #555555;
-  --status-infomation: #067dfd;
-  --status-warning: #ffb724;
-  --status-success: #00c400;
-  --status-danger: #ef2b2a;
+
+  /* 텍스트 */
+  --color-main-text: #1d1d1d;
+  --color-sub-text: #555555;
+  --color-sub-text2: #d9d9d9;
+  --color-point-text: #ff4081;
+  /* 버튼 */
+  --color-button-text1: #1d1d1d;
+  --color-button-text2: #555555;
+  --color-button-text3: #8d8d8d;
+  --color-button-color1: #ff4081;
+  --color-button-color2: #ff79a7;
+  --color-button-color3: #ffe5ee;
+  --color-button-color4: #dcdcdc;
+  --color-button-color5: #f3f3f3;
+  --color-button-color6: #ffffff;
+  /* 서식 */
+  --color-formff: #ffffff;
+  --color-formf3: #f3f3f3;
+  --color-formdf: #dfdfdf;
+  --color-formdc: #c3c4c8;
+  --color-formc3: #c3c3c3;
+  --color-form8d: #8d8d8d;
+  --color-form55: #555555;
+  --color-form1d: #1d1d1d;
+  --color-formprimary: #ff4081;
+  /* 시스템 */
+  --color-systemdanger: #ef2b2a;
+  --color-systemsuccess: #00c400;
+  --color-systemwarnig: #ffb724;
+  --color-systeminfomation: #067dfd;
 
   /* Fonts */
-  --text-xxs-font-family: NotoSansKr-Regular, sans-serif;
+  --text-xxs-font-family: Pretendard-Regular, sans-serif;
   --text-xxs-font-size: 10px;
   --text-xxs-line-height: normal;
   --text-xxs-font-weight: 400;
   --text-xxs-font-style: normal;
-  --text-xs-font-family: NotoSansKr-Regular, sans-serif;
+  --text-xs-font-family: Pretendard-Regular, sans-serif;
   --text-xs-font-size: 12px;
   --text-xs-line-height: normal;
   --text-xs-font-weight: 400;
   --text-xs-font-style: normal;
-  --text-sm-font-family: NotoSansKr-Regular, sans-serif;
+  --text-sm-font-family: Pretendard-Regular, sans-serif;
   --text-sm-font-size: 14px;
   --text-sm-line-height: normal;
   --text-sm-font-weight: 400;
   --text-sm-font-style: normal;
-  --text-base-font-family: NotoSansKr-Regular, sans-serif;
+  --text-base-font-family: Pretendard-Regular, sans-serif;
   --text-base-font-size: 16px;
   --text-base-line-height: normal;
   --text-base-font-weight: 400;
   --text-base-font-style: normal;
-  --h1-font-family: NotoSansKr-Bold, sans-serif;
+  --h1-font-family: Pretendard-Bold, sans-serif;
   --h1-font-size: 20px;
   --h1-line-height: 23.68px;
   --h1-font-weight: 700;
   --h1-font-style: normal;
-  --h2-font-family: NotoSansKr-Bold, sans-serif;
+  --h2-font-family: Pretendard-Bold, sans-serif;
   --h2-font-size: 18px;
   --h2-line-height: 23.68px;
   --h2-font-weight: 700;
   --h2-font-style: normal;
-  --h3-font-family: NotoSansKr-Bold, sans-serif;
+  --h3-font-family: Pretendard-Bold, sans-serif;
   --h3-font-size: 16px;
   --h3-line-height: 23.68px;
   --h3-font-weight: 700;
   --h3-font-style: normal;
-  --h4-font-family: NotoSansKr-Bold, sans-serif;
+  --h4-font-family: Pretendard-Bold, sans-serif;
   --h4-font-size: 14px;
   --h4-line-height: 23.68px;
   --h4-font-weight: 700;
   --h4-font-style: normal;
+}
 
-  /* 텍스트 */
-  --main-text: #1d1d1d;
-  --sub-text1: #555555;
-  --sub-text2: #d9d9d9;
-  --point-text: #ff4081;
 
-  /* 버튼 */
-  --button-txt1: #1d1d1d;
-  --button-txt2: #555555;
-  --button-primary: #ff4081;
-  --button-sub: #ffe5ee;
-  --button-gray1: #dcdcdc;
-  --button-gray2: #f3f3f3;
-  /* 서식 */
 
-  /* 선색 */
-  --gray1: #f3f3f3;
-  --gray2: #dcdcdc;
-  --gray3: #c3c4c8;
-  --gray4: #8d8d8d;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  width: 300px;
+  background-color: var(--color-button-color6);
+  color: var(--color-main-text);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--color-formdf);
+  gap: 20px;
+}
+
+aside h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  color: var(--color-main-text);
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.menu-ico {
+  width: 20px;
+  height: 20px;
+  aspect-ratio: 1/1;
+  margin-right: 10px;
+}
+
+
+nav ul li a:hover {
+  background-color: var(--color-button-color5);
+}
+
+nav ul li.active a {
+  background-color: var(--color-button-color3);
+}
+
+
+main {
+  flex: 1;
+  padding: 50px;
+  background-color: var(--color-formff);
+}
+
+/* 가이드 페이지 레이아웃 */
+
+.title-page {
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.title-ico {
+  padding-right: 10px;
+}
+
+.title-text {
+  font-size: 26px;
+}
+
+.title-divider {
+  border: none;
+  border-top: 1px solid var(--color-formdf);
+  margin: 0 0 40px 0;
+}
+
+.guide-sub-title {
+  font-size: 16px;
+  padding-bottom: 10px;
 }
