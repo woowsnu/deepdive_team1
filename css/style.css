@@ -76,8 +76,6 @@
   --h4-font-style: normal;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -129,7 +127,6 @@ nav ul li a {
   margin-right: 10px;
 }
 
-
 nav ul li a:hover {
   background-color: var(--color-button-color5);
 }
@@ -137,7 +134,6 @@ nav ul li a:hover {
 nav ul li.active a {
   background-color: var(--color-button-color3);
 }
-
 
 main {
   flex: 1;
@@ -167,10 +163,39 @@ main {
 .title-divider {
   border: none;
   border-top: 1px solid var(--color-formdf);
-  margin: 0 0 40px 0;
+}
+
+/* 가이드 상세 내용 영역 */
+
+.guide-contents {
+  padding-bottom: 40px;
+}
+
+.guide-content {
+  margin-top: 40px;
 }
 
 .guide-sub-title {
   font-size: 16px;
   padding-bottom: 10px;
+}
+
+.color-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.color-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 110px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.color-name {
+  padding-bottom: 5px;
 }
