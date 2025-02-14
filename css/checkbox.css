@@ -2,11 +2,12 @@
   --checkoffImage: url(../images/ico_check_off.svg);
   --checkonImage: url(../images/ico_check_on.svg);
   --checkfontSize: 15px;
-  --checkbeforeColor: var(--main-text);
-  --checkafterColor: var(--main-text);
-  --checkboxPl: 20px;
+  --checkbeforeColor: red;
+  --checkafterColor: blue;
+  --checkPl: 20px;
   --checkHeight: 24px;
 }
+
 .checkbox {
   position: absolute;
   width: 1px;
@@ -14,9 +15,9 @@
   overflow: hidden;
   + label {
     display: inline-flex;
-    padding-left: var(--checkboxPl);
+    padding-left: var(--checkPl);
     background: var(--checkoffImage) no-repeat left;
-    font-size: var(--fontSize);
+    font-size: var(--checkfontSize);
     color: var(--checkbeforeColor);
     height: var(--checkHeight);
   }
