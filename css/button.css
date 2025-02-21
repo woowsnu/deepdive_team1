@@ -56,7 +56,7 @@ button {
   display: inline-flex;
   padding: 10px 20px;
   border-radius: 20px;
-  background: var(--button-primary);
+  background: var(--color-button-color1);
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -70,16 +70,16 @@ button {
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    background: var(--button-sub);
+    background: var(--color-button-color2: #ff79a7;);
   }
   &:active {
     border: 1px solid var(--gray1);
-    background: var(--button-sub);
+    background: var(--color-button-color2: #ff79a7;);
   }
   &:disabled {
     cursor: not-allowed;
-    background: var(--gray2);
-    color: var(--button-text-1);
+    background: var(--color-button-color5);
+    color: var(--color-button-text3);
   }
   &[aria-disabled="true"] {
     cursor: not-allowed;
@@ -91,7 +91,7 @@ button {
   display: inline-flex;
   padding: 10px 20px;
   border-radius: 20px;
-  background: var(--button-);
+  background: var(--color-button-color6);
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -101,7 +101,7 @@ button {
   font-weight: 500;
   line-height: 23px;
   text-transform: capitalize;
-  border: 1px solid var(--button-primary);
+  border: 1px solid var(--color-button-color1);
   cursor: pointer;
   text-decoration: none;
   &:hover {

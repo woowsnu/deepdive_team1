@@ -1,0 +1,71 @@
+.tab-type1 {
+  display: flex;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px; /* 버튼 가로 크기 */
+    height: 47px; /* 버튼 세로 크기 */
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdcdc;
+    flex: none; /* flex 속성 초기화 (고정 크기를 유지하기 위해) */
+  }
+
+  .active {
+    border-bottom: 2px solid #1d1d1d;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #1d1d1d;
+  }
+
+  &.full {
+    li {
+      flex: 1;
+    }
+  }
+
+  &.scroll {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: lightcoral;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      width: 5px; /* 스크롤 크기 수정 */
+      background-color: coral;
+      border-radius: 50px;
+    }
+  }
+}
+
+.tab-type2 {
+  display: flex;
+
+  button {
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    gap: 10px;
+    line-height: 23px;
+    text-transform: capitalize;
+  }
+
+  .active {
+    border: 1px solid #ff4081;
+    background: #ffe5ee;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d1d;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}

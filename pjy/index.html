@@ -38,12 +38,32 @@
         <title>헤더 + LNB + 콘텐츠</title>
       </head>
       <body>
+        <details>
+          <summary>헤더</summary>
+          <header>
+            <h1>펫사펫프렌즈</h1>
+            <nav>
+              <ul>
+                <li><a href="#" data-page="content1.html">컨텐츠1</a></li>
+                <li><a href="#" data-page="content2.html">컨텐츠2</a></li>
+                <li><a href="#" data-page="content3.html">컨텐츠3</a></li>
+              </ul>
+            </nav>
+          </header>
         <!-- 연습용 -->
         <h2>chip</h2>
         <div id="chip"></div>
         <br />
         <h2>dialog</h2>
-        <div id="dialog"></div>
+        <div popover id="popup" data-width="500px" class="dialog dimmed blur lg">
+          <h2>팝업제목</h2>
+          <div>팝업내용</div>
+          <br />
+          <button class="btn-primary">포인트확인</button>
+          <a href="" class="btn-primary">포인트확인</a>
+          <br />
+          <button type="button" popovertarget="popup" popovertargetaction="hide">닫기</button>
+        </div>
       </body>
     </html>
   </body>

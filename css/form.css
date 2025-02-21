@@ -1,0 +1,7 @@
+.text-field-group {
+  display: grid;
+  gap: 10px;
+  .text-error {
+    margin-top: -4px;
+  }
+}
