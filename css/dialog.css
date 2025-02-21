@@ -130,7 +130,7 @@ body:has(:popover-open) {
   display: inline-flex;
   padding: 10px 20px;
   border-radius: 20px;
-  background: var(--button-primary);
+  background: var(--color-button-color1);
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -144,16 +144,16 @@ body:has(:popover-open) {
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    background: var(--button-sub);
+    background: var(--color-button-color2);
   }
   &:active {
-    border: 1px solid var(--gray1);
-    background: var(--button-sub);
+    border: none;
+    background: var(--color-button-color2);
   }
   &:disabled {
     cursor: not-allowed;
-    background: var(--gray2);
-    color: var(--button-text-1);
+    background: var(--color-button-color5);
+    color: var(--color-button-text3);
   }
   &[aria-disabled="true"] {
     cursor: not-allowed;
