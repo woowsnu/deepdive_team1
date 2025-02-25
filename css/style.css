@@ -83,7 +83,6 @@
 }
 
 body {
-  display: flex;
   height: 100vh;
 }
 
@@ -198,4 +197,29 @@ main {
 
 .color-name {
   padding-bottom: 5px;
+}
+/* 정렬용 클래스 */
+.alien {
+  display: flex;
+  &.right {
+    justify-content: flex-end;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.left {
+    justify-content: flex-start;
+  }
+  &.both {
+    justify-content: space-between;
+  }
+  &.vt {
+    align-items: start;
+  }
+  &.vm {
+    align-items: center;
+  }
+  &.vb {
+    align-items: end;
+  }
 }

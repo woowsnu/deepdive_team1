@@ -1,27 +1,29 @@
 :root {
-    --fontSize: 19px;
-    --beforeColor: var(--gray4);
-    --afterColor: var(--button-primary);
-    --radioPl: 32px;
-    /* --radioHeight: 24px; */
+  --fontSize: 19px;
+  --beforeColor: var(--gray4);
+  --afterColor: var(--button-primary);
+  --radioPl: 32px;
+  /* --radioHeight: 24px; */
+}
+.radio {
+  overflow: hidden;
+  position: absolute;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  + label {
+    /* display: inline-flex; */
+    padding-left: var(--radioPl);
+    background: url(../images/ico_radio_off.svg) no-repeat left;
+    font-size: var(--fontSize);
+    color: var(--gray4);
+    height: 24px;
   }
-  .radio {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+  &:checked {
     + label {
-      /* display: inline-flex; */
-      padding-left: var(--radioPl);
-      background: url(../images/ico_radio_off.svg) no-repeat left;
-      font-size: var(--fontSize);
-      color: var(--gray4);
-      height: 24px;
-    }
-    &:checked {
-      + label {
-        color: var(--button-primary);
-        background: url(../images/ico_radio_on.svg) no-repeat left;
-      }
+      color: var(--button-primary);
+      background: url(../images/ico_radio_on.svg) no-repeat left;
     }
   }
+}

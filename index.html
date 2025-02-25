@@ -13,27 +13,15 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://metatags.io/" />
     <meta property="og:title" content="펫사_펫프렌즈 개선 프로젝트" />
-    <meta
-      property="og:description"
-      content="펫프렌즈 커뮤니티를 활성화합니다."
-    />
-    <meta
-      property="og:image"
-      content="https://metatags.io/images/meta-tags.png"
-    />
+    <meta property="og:description" content="펫프렌즈 커뮤니티를 활성화합니다." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_largeimage" />
     <meta property="twitter:url" content="https://metatags.io/" />
     <meta property="twitter:title" content="펫사펫프렌즈 개선 프로젝트" />
-    <meta
-      property="twitter:description"
-      content="펫프렌즈 커뮤니티를 활성화합니다."
-    />
-    <meta
-      property="twitter:image"
-      content="https://metatags.io/images/meta-tags.png"
-    />
+    <meta property="twitter:description" content="펫프렌즈 커뮤니티를 활성화합니다." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
     <!-- Meta Tags Generated with https://metatags.io/ -->
 
@@ -45,14 +33,12 @@
       document.addEventListener("DOMContentLoaded", function () {
         const menuItems = document.querySelectorAll("nav ul li a");
 
-        menuItems.forEach(item => {
-          item.addEventListener("click", function(event) {
+        menuItems.forEach((item) => {
+          item.addEventListener("click", function (event) {
             event.preventDefault();
 
             // 기존에 선택된 메뉴 항목에서 배경색 제거
-            menuItems.forEach((i) =>
-              i.parentElement.classList.remove("active")
-            );
+            menuItems.forEach((i) => i.parentElement.classList.remove("active"));
 
             // 클릭한 메뉴 항목에 배경색 추가
             this.parentElement.classList.add("active");
@@ -92,60 +78,25 @@
           <nav>
             <ul>
               <li>
-                <a href="#" data-page="./guide/color.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_color.svg"
-                  />Color</a
-                >
+                <a href="#" data-page="./guide/color.html"><img class="menu-ico" src="./images/ico_menu_color.svg" />Color</a>
               </li>
               <li>
-                <a href="#" data-page="./guide/text.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_text.svg"
-                  />Text</a
-                >
+                <a href="#" data-page="./guide/text.html"><img class="menu-ico" src="./images/ico_menu_text.svg" />Text</a>
               </li>
               <li>
-                <a href="#" data-page="./guide/action.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_action.svg"
-                  />Action</a
-                >
+                <a href="#" data-page="./guide/action.html"><img class="menu-ico" src="./images/ico_menu_action.svg" />Action</a>
               </li>
               <li>
-                <a href="#" data-page="./guide/select.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_select.svg"
-                  />Select</a
-                >
+                <a href="#" data-page="./guide/select.html"><img class="menu-ico" src="./images/ico_menu_select.svg" />Select</a>
               </li>
               <li>
-                <a href="#" data-page="./guide/input.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_input.svg"
-                  />Input</a
-                >
+                <a href="#" data-page="./guide/input.html"><img class="menu-ico" src="./images/ico_menu_input.svg" />Input</a>
               </li>
               <li>
-                <a href="#" data-page="./guide/switch.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_input.svg"
-                  />Switch</a
-                >
+                <a href="#" data-page="./guide/switch.html"><img class="menu-ico" src="./images/ico_menu_input.svg" />Switch</a>
               </li>
               <li>
-                <a href="#" data-page="./guide/icon.html"
-                  ><img
-                    class="menu-ico"
-                    src="./images/ico_menu_icon.svg"
-                  />icon</a
-                >
+                <a href="#" data-page="./guide/icon.html"><img class="menu-ico" src="./images/ico_menu_icon.svg" />icon</a>
               </li>
             </ul>
           </nav>

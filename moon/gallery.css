@@ -1,0 +1,48 @@
+.content {
+    width: 350px;
+    display: grid;
+    gap: 14px;
+}
+
+.content-header {
+    display: grid;
+    grid-template-columns: min-content min-content 1fr;
+    gap: 10px;
+    align-items: center;
+    .text-sm {
+        white-space: nowrap;
+    }
+    .btn-primary {
+        justify-self: end;
+    }
+}
+
+.social-interaction {
+    display: grid;
+    grid-template-columns: min-content min-content 1fr;
+    gap: 4px;
+    align-items: center;
+    .text-base {
+        white-space: nowrap;
+    }
+    .like {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+    .comments {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+    .share {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        justify-self: end;
+    }
+}
+
+.content-tags {
+    margin-top: 6px;
+}

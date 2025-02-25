@@ -1,0 +1,43 @@
+.content {
+  display: grid;
+  width: 350px;
+}
+
+.feed-header {
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  gap: 10px;
+  align-items: center;
+  .text-sm {
+    white-space: nowrap;
+  }
+  .btn-primary {
+    justify-self: end;
+  }
+}
+
+.feed-footer {
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  gap: 10px;
+  align-items: center;
+  .text-base {
+    white-space: nowrap;
+  }
+}
+
+.like {
+  display: flex;
+  gap: 5px;
+}
+
+.comment {
+  display: flex;
+  gap: 5px;
+}
+
+.share {
+  display: flex;
+  gap: 5px;
+  justify-self: end;
+}
