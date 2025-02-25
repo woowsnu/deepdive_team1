@@ -1,36 +1,37 @@
-.select {
-  display: flex;
-  padding: 10px 10px;
-  border-radius: 8px;
-  border: 1px solid var(--gray4, #8d8d8d);
-  align-items: center;
+.filter_bar {
+  width: 350px;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
   gap: 10px;
+  align-items: center;
+  .text-base {
+    white-space: nowrap;
+  }
 }
 
-
-
 .clean-select {
+  justify-self: end;
   /* 기본 border 제거 */
   border: none;
   outline: none;
-  
+
   /* 기본 배경색과 화살표 제거 */
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  
+
   /* 패딩과 폰트 설정 */
   padding: 5px 20px 5px 5px;
   font-size: 16px;
-  
+
   /* 커스텀 화살표 추가 (선택사항) */
   background-image: url(../images/ico-arrow-down.svg);
   background-repeat: no-repeat;
   background-position: right 0px center;
   background-size: 16px;
-  
+
   /* 커서 스타일 */
   cursor: pointer;
 }
-
