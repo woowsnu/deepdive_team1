@@ -52,6 +52,18 @@ button {
   align-items: center;
   flex-shrink: 0;
 }
+.heart_off {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: none;
+  border-radius: none;
+  border: none;
+  background: url(../images/heart_off.svg) no-repeat center;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 
 .btn-primary {
   min-width: 100px;
