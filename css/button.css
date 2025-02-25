@@ -70,11 +70,11 @@ button {
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    background: var(--color-button-color2: #ff79a7;);
+    background: var(--color-button-color2);
   }
   &:active {
     border: 1px solid var(--gray1);
-    background: var(--color-button-color2: #ff79a7;);
+    background: var(--color-button-color2);
   }
   &:disabled {
     cursor: not-allowed;
