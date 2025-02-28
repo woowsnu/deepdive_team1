@@ -114,3 +114,14 @@
     }
   }
 }
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  font-style: var(--text-base-font-size);
+  border: 1px solid var(--color-formc3);
+  border-radius: 20px;
+  padding: 20px 10px;
+  background-color: var(--color-formff);
+}
