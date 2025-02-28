@@ -52,6 +52,18 @@ button {
   align-items: center;
   flex-shrink: 0;
 }
+.heart_off {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: none;
+  border-radius: none;
+  border: none;
+  background: url(../images/heart_off.svg) no-repeat center;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 
 .btn-primary {
   min-width: 100px;
@@ -73,7 +85,7 @@ button {
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    background: var(--color-button-color1);
+    background: var(--color-button-color2);
   }
   &:active {
     border: 1px solid var(--gray1);
@@ -127,7 +139,6 @@ button {
   }
 }
 
-
 .btn-secondary {
   min-width: 100px;
   display: inline-flex;
@@ -138,7 +149,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color:var(--color-button-text2);
+  color: var(--color-button-text2);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -149,7 +160,7 @@ button {
   text-decoration: none;
   &:hover {
     background: var(--color-button-color1);
-    color:var(--color-button-color6);
+    color: var(--color-button-color6);
   }
   &:active {
     border: 1px solid var(--gray1);
@@ -167,7 +178,6 @@ button {
   }
 }
 
-
 .btn-subtle {
   min-width: 100px;
   display: inline-flex;
@@ -178,7 +188,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color:var(--color-button-text2);
+  color: var(--color-button-text2);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -189,7 +199,7 @@ button {
   text-decoration: none;
   &:hover {
     background: var(--color-button-color1);
-    color:var(--color-button-color6);
+    color: var(--color-button-color6);
   }
   &:active {
     border: 1px solid var(--gray1);
