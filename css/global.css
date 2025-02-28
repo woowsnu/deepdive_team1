@@ -13,6 +13,7 @@
 @import url("./img_list.css");
 @import url("./dialog.css");
 @import url("./tap.css");
+<<<<<<< HEAD
 @import url("./switch.css");
 @import url("./gallery.css");
 
@@ -35,3 +36,6 @@
 
 
 @import url("./banner_point.css");
+=======
+@import url("./gallery.css");
+>>>>>>> 06ad79b76111d5bef1175a33802921748656435c

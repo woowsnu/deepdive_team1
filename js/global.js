@@ -11,4 +11,3 @@ includeHTML("/guide/checkbox.html", "#checkbox");
 includeHTML("/guide/chip.html", "#chip");
 includeHTML("/guide/dialog.html", "#dialog");
 includeHTML("/guide/img_list.html", "#img_list");
-
