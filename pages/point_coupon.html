@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css" />
+    <title>포인트_쿠폰교환소</title>
+</head>
+<body>
+    <div class="h_type1">심쿵포인트</div>
+    <!--포인트 안내 배너-->
+    <div class="banner_point">
+        <div class="point_info h_type1">
+          <div>현재 포인트</div>
+          <div>3,500P</div>
+        </div>
+        <div class="point_info text-base">
+          <div>1주일 내 만료 예정 포인트</div>
+          <div>50P</div>
+        </div>
+    </div>
+    <!--탭-->
+    <nav>
+        <ul class="tab-type1 scroll">
+            <li><button type="button">사용 내역</li>
+            <li><button type="button">포인트 충전</button></li>
+            <li><button type="button" class="active">쿠폰 교환소</button></li>
+        </ul>
+    </nav>
+    <div class="filter_bar">
+        <button class="btn-secondary text-base">피드</button>
+        <button class="btn-subtle text-base">질문</button>
+        <select class="clean-select">
+          <option value="popular">인기순</option>
+          <option value="latest">최신순</option>
+        </select>
+    </div>
+    <div class="content">
+        <div class="sample-list">
+          <img src="../images/sample.png" width="60px" height="60px" />
+          <div class="info">
+            <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+            <div class="text-button">
+              <div class="text-base">500P</div>
+              <button class="btn-primary" popovertarget="confirm_change">교환하기</button>
+            </div>
+          </div>
+        </div>
+        <div class="sample-list">
+            <img src="../images/sample.png" width="60px" height="60px" />
+            <div class="info">
+              <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+              <div class="text-button">
+                <div class="text-base">500P</div>
+                <button class="btn-primary" popovertarget="confirm_change">교환하기</button>
+              </div>
+            </div>
+          </div>
+          <div class="sample-list">
+            <img src="../images/sample.png" width="60px" height="60px" />
+            <div class="info">
+              <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+              <div class="text-button">
+                <div class="text-base">500P</div>
+                <button class="btn-primary" popovertarget="confirm_change">교환하기</button>
+              </div>
+            </div>
+          </div>
+          <div class="sample-list">
+            <img src="../images/sample.png" width="60px" height="60px" />
+            <div class="info">
+              <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+              <div class="text-button">
+                <div class="text-base">500P</div>
+                <button class="btn-primary" popovertarget="confirm_change">교환하기</button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div popover id="confirm_change" class="popup">
+        <img
+          src="../images/img_product.png"
+          alt=""
+          style="display: block; margin: auto"
+        />
+      
+        <h2 class="h_type2">[3개]체험팩 촉촉트릿 북어 1P</h2>
+        <div class="text-base">위 상품으로 교환하시겠어요?</div>
+      
+        <!-- 연습
+              <div class="popup-header alien both">
+                  <h2 class="h_type2">+100P가 적립되었어요.</h2>
+                  <button class="btn-primary">더보기</button>
+              </div> -->
+        <!-- 연습2
+              <div class="popup-content">
+                  <h2 class="h_type2">내용타이틀</h2>
+                  <div class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non error aut quia ab, enim repudiandae, quo dolore nesciunt voluptate quis illo iure quibusdam maxime id nam omnis saepe cumque.</div>
+              </div> -->
+        <div class="btn-group-full">
+          <button class="btn-floating" popovertarget="confirm_change" popovertargetaction="hide">취소</button>
+          <button class="btn-primary">교환하기</button>
+        </div>
+        <br />
+      </div>
+      
+</body>
+</html>
