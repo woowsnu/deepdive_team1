@@ -46,6 +46,10 @@ figure,
 figcaption {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  /* font-family: "Noto Sans KR", sans-serif; */
+>>>>>>> 3128cdf5fa94db11d5a7f19c0e192b398a5ca775
 }
 
 body,

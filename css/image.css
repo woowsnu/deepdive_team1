@@ -1,0 +1,10 @@
+.upload_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    min-height: 100px;
+    background-color: var(--color-formf3);
+    border-radius: 20px;
+}

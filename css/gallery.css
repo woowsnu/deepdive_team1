@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  width: 350px;
+  /* width: 350px; */
 }
 
 .feed-header {
@@ -52,6 +52,8 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 10px;
+  border-bottom: 1px solid var(--color-formdc);
+  padding: 20px 0;
   .text-base {
     white-space: nowrap;
   }
@@ -67,12 +69,15 @@
 }
 
 .text-button {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   .btn-primary {
     margin-left: auto;
+    width: auto;
+    justify-self: end;
   }
 }
 
@@ -150,9 +155,7 @@
 .banner_point {
   display: grid;
   gap: 15px;
-  width: 350px;
   padding: 20px;
-  margin: 20px 0;
   border: 1px solid var(--color-form8d);
   border-radius: 20px;
 }
@@ -163,7 +166,11 @@
 }
 
 .filter_bar {
+<<<<<<< HEAD
   width: 100%;
+=======
+  /* width: 350px; */
+>>>>>>> 3128cdf5fa94db11d5a7f19c0e192b398a5ca775
   padding: 20px 0;
   display: grid;
   grid-template-columns: min-content min-content 1fr;
