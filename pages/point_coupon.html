@@ -78,6 +78,7 @@
           </div>
       </div>
 
+      <!--교환 확인 팝업-->
       <div popover id="confirm_change" class="popup">
         <img
           src="../images/img_product.png"
@@ -87,23 +88,29 @@
       
         <h2 class="h_type2">[3개]체험팩 촉촉트릿 북어 1P</h2>
         <div class="text-base">위 상품으로 교환하시겠어요?</div>
-      
-        <!-- 연습
-              <div class="popup-header alien both">
-                  <h2 class="h_type2">+100P가 적립되었어요.</h2>
-                  <button class="btn-primary">더보기</button>
-              </div> -->
-        <!-- 연습2
-              <div class="popup-content">
-                  <h2 class="h_type2">내용타이틀</h2>
-                  <div class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non error aut quia ab, enim repudiandae, quo dolore nesciunt voluptate quis illo iure quibusdam maxime id nam omnis saepe cumque.</div>
-              </div> -->
         <div class="btn-group-full">
           <button class="btn-floating" popovertarget="confirm_change" popovertargetaction="hide">취소</button>
-          <button class="btn-primary">교환하기</button>
+          <button class="btn-primary" popovertarget="confirm_change_done">교환하기</button>
         </div>
         <br />
       </div>
+
+            <!--교환 확인 팝업-->
+            <div popover id="confirm_change_done" class="popup">
+                <img
+                  src="../images/img_change_done.png"
+                  alt=""
+                  style="display: block; margin: auto"
+                />
+              
+                <h2 class="h_type2">교환이 완료되었어요!</h2>
+                <div class="text-base">교환한 사은품은 상품 구매 시 같이 사용할 수 있어요</div>
+                <div class="btn-group-full">
+                  <button class="btn-primary" popovertarget="confirm_change_done" popovertargetaction="hide">포인트확인</button>
+                  <button class="btn-subtle" popovertarget="confirm_change_done" popovertargetaction="hide">닫기</button>
+                </div>
+                <br />
+              </div>
       
 </body>
 </html>

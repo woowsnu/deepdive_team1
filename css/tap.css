@@ -1,11 +1,12 @@
 .tab-type1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
   button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 195px; /* 버튼 가로 크기 */
+    width: 100%; /* 버튼 가로 크기 */
     height: 47px; /* 버튼 세로 크기 */
     background-color: #ffffff;
     border-bottom: 1px solid #dcdcdc;

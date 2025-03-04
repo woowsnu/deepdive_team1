@@ -6,7 +6,7 @@
     <h1 class="title-text">Switch</h1>
   </div>
   <hr class="title-divider" />
-  <div class="guide-content">
+  <!-- <div class="guide-content">
     <h2 class="guide-sub-title">텍스트 컬러</h2>
     <div class="color-cards">
       <div class="color-card">
@@ -22,12 +22,42 @@
         />
         <br />
       </div>
-    </div>
-    <h2 class="guide-sub-title">스위치</h2>
-    <div class="switch">
-      다크모드
-      <input type="checkbox" id="switch2">
-      <label for="switch2"></label>
-    </div>
+    </div> -->
+
+  <!--스위치 상태별-->
+  <h2 class="h_type3 mt40">Switch 상태별 UI</h2>
+  <table>
+    <tr>
+      <td class="text-sm guide_td20-left">Enabled_off</td>
+      <td class="text-sm guide_td20-left">Enabled_on</td>
+      <td class="text-sm guide_td20-left">Disabled</td>
+    </tr>
+    <tr>
+      <td class="guide_td20-left">
+        <input type="text" class="input-enabled" placeholder="input enabled" />
+      </td>
+      <td class="guide_td20-left">
+        <input type="text" class="input-focus" placeholder="input hover" />
+      </td>
+      <td class="guide_td20-left">
+        <input type="text" class="input-focus" placeholder="input active" />
+      </td>
+    </tr>
+  </table>
+  <!--인풋 상태별 끝-->
+  <h2 class="h_type3 mt40">레이블 사용</h2>
+  <div class="text-sm">
+    비중립적이고, 간결한 레이블을 사용합니다. 부가 설명이 필요한 경우에만 레이블
+    하단에 디스크립션을 추가합니다.
+  </div>
+  <div class="switch">
+    다크모드
+    <input type="checkbox" id="switch2" />
+    <label for="switch2"></label>
+  </div>
+
+  <h2 class="h_type3 mt40">정렬 규칙</h2>
+  <div class="text-sm">
+    레이블은 좌측, Switch는 우측으로 일관성 있게 정렬합니다.
   </div>
 </div>

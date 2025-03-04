@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  width: 350px;
+  /* width: 350px; */
 }
 
 .feed-header {
@@ -51,6 +51,8 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 10px;
+  border-bottom: 1px solid var(--color-formdc);
+  padding: 20px 0;
   .text-base {
     white-space: nowrap;
   }
@@ -150,9 +152,7 @@
 .banner_point {
   display: grid;
   gap: 15px;
-  width: 350px;
   padding: 20px;
-  margin: 20px 0;
   border: 1px solid var(--color-form8d);
   border-radius: 20px;
 }
@@ -163,7 +163,7 @@
 }
 
 .filter_bar {
-  width: 350px;
+  /* width: 350px; */
   padding: 20px 0;
   display: grid;
   grid-template-columns: min-content min-content 1fr;

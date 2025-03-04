@@ -1,9 +1,38 @@
-<button type="button" popovertarget="popup" popovertargetaction="show">열기</button>
-
-<div popover id="popup" data-width="500px" class="dialog dimmed blur lg">
-  <h2>팝업제목</h2>
-  <div>
-    팝업내용
+<div class="title-page">
+  <div class="title">
+    <div class="title-ico">
+      <img src="../images/ico_menu_color.svg" width="26px" height="26px" />
+    </div>
+    <h1 class="title-text">Dialog</h1>
   </div>
-  <button type="button" popovertarget="popup" popovertargetaction="hide">닫기</button>
+  <hr class="title-divider" />
+  <h2 class="h_type3 mt40">Bottom Popup</h2>
+
+  <div class="popup">
+    <img
+      src="../images/img_change_done.png"
+      alt=""
+      style="display: block; margin: auto"
+    />
+  
+    <h2 class="h_type2">교환이 완료되었어요!</h2>
+    <div class="text-base">교환한 사은품은 상품 구매 시 같이 사용할 수 있어요</div>
+    <div class="btn-group-full">
+      <button class="btn-primary">포인트확인</button>
+      <button class="btn-subtle">닫기</button>
+    </div>
+    <br />
+  </div>
+
+  <button type="button" popovertarget="popup" popovertargetaction="show">
+    열기
+  </button>
+
+  <div popover id="popup" data-width="500px" class="dialog dimmed blur lg">
+    <h2>팝업제목</h2>
+    <div>팝업내용</div>
+    <button type="button" popovertarget="popup" popovertargetaction="hide">
+      닫기
+    </button>
+  </div>
 </div>
