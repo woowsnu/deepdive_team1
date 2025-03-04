@@ -116,6 +116,7 @@
 }
 .search-box {
   display: flex;
+  height: 44px;
   justify-content: space-between;
   align-items: center;
   width: 350px;

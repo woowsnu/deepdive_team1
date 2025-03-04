@@ -80,6 +80,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: pretendard;
 }
 
 body {
@@ -221,5 +222,32 @@ main {
   }
   &.vb {
     align-items: end;
+  }
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mt-lg {
+  margin-top: 20px;
+  @media (width > 1024px) {
+    margin-top: 100px;
   }
 }
