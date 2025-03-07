@@ -122,7 +122,7 @@
   height: 44px;
   justify-content: space-between;
   align-items: center;
-  width: 350px;
+  width: 100%;
   font-style: var(--text-base-font-size);
   border: 1px solid var(--color-formc3);
   border-radius: 20px;
