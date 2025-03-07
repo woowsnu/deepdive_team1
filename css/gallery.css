@@ -168,11 +168,8 @@
 }
 
 .filter_bar {
-<<<<<<< HEAD
   width: 100%;
-=======
   /* width: 350px; */
->>>>>>> 3128cdf5fa94db11d5a7f19c0e192b398a5ca775
   padding: 20px 0;
   display: grid;
   grid-template-columns: min-content min-content 1fr;
