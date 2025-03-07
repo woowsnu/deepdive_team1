@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>feed</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="../js/pjy.js" defer></script>
     <link rel="stylesheet" href="../css/global.css" />
 </head>
 <body>
@@ -13,12 +15,12 @@
         <li><button type="button" class="active">고양이</button></li>
     </ul>
 </nav>
-<div class="search-box">
+<div class="search-box mx20">
   <input type="text" placeholder="태그할 상품을 검색해보세요.">
   <img src="/images/ico_search.svg" alt="검색">
 </div>
-<h1 class="h_type1 mt20">서포터즈</h1>
-<div class="supporters-list mt20">
+<h1 class="h_type1 mt20 mx20">서포터즈</h1>
+<div class="supporters-list mt20 mx20L">
   <div class="supporters-post">
       <img src="../images/img_cat1.png" alt="고양이 이미지">
       <div class="text-ellipsis2">
@@ -32,7 +34,7 @@
       </div>
     </div>
 </div>
-<div class="filter_bar mt20">
+<div class="filter_bar mt20 mx20">
   <button class="btn-secondary text-base">피드</button>
   <button class="btn-subtle text-base">질문</button>
   <select class="clean-select">
@@ -40,102 +42,97 @@
     <option value="latest">최신순</option>
   </select>
 </div>
-<div class="feed-header mt20">
-  <img src="../images/profile.png" width="40px" height="40px" />
-  <div class="text-sm">고양이집사</div>
-  <button class="btn-primary">팔로우</button>
+<div class="content mx20">
+  <div class="feed-header mt20">
+    <img src="../images/profile.png" width="40px" height="40px" />
+    <div class="text-sm">고양이집사</div>
+    <button class="btn-primary">팔로우</button>
+  </div>
+  <img src="../images/feed_image.png" alt="" class="mt20" width="350" height="330" />
+  <div class="feed-footer mt15">
+    <div class="like">
+      <img src="../images/heart_off.svg" alt="" width="24" height="24" />
+      <div class="text-base">23</div>
+    </div>
+    <div class="comment">
+      <img src="../images/comment.svg" alt="" width="24" height="24" />
+      <div class="text-base">3</div>
+    </div>
+    <div class="share">
+      <div class="text-base">1시간전</div>
+      <img src="../images/share.svg" width="24px" height="24px" />
+    </div>
+  </div>
+  <div class="text-base mt15">순간포착!</div>
+  <div class="tag-list">
+    <div class="text-base">태그</div>
+    <div class="text-base">#고양이</div>
+    <div class="text-base">#일상</div>
+  </div>
 </div>
-<br />
-<br />
-<img src="../images/feed_image.png" alt="" width="350" height="330" />
-<br />
-<br />
-<div class="feed-footer mt15">
-  <div class="like">
-    <img src="../images/heart_off.svg" alt="" width="24" height="24" />
-    <div class="text-base">23</div>
+<div class="product_tag_list mt15 mx20L">
+  <div class="product_tag">
+    <img src="../images/img_product.png" alt="상품이미지">
+    <div class="product-info">
+      <div class="text-base">페피테일 참글루칸 12g</div>
+      <div class="text-sm">24,000원</div>
+    </div>
+    <button class="heart_off"></button>
   </div>
-  <div class="comment">
-    <img src="../images/comment.svg" alt="" width="24" height="24" />
-    <div class="text-base">3</div>
-  </div>
-  <div class="share">
-    <div class="text-base">1시간전</div>
-    <img src="../images/share.svg" width="24px" height="24px" />
+  <div class="product_tag">
+    <img src="../images/img_product.png" alt="상품이미지">
+    <div class="product-info">
+      <div class="text-base">페피테일 참글루칸 12g</div>
+      <div class="text-sm">24,000원</div>
+    </div>
+    <button class="heart_off"></button>
   </div>
 </div>
-<div class="text-base mt15">순간포착!</div>
-<div class="tag-list">
-  <div class="text-base">태그</div>
-  <div class="text-base">#고양이</div>
-  <div class="text-base">#일상</div>
-</div>        
-      <div class="product_tag_list mt15">
-        <div class="product_tag">
-          <img src="../images/img_product.png" alt="상품이미지">
-          <div class="product-info">
-            <div class="text-base">페피테일 참글루칸 12g</div>
-            <div class="text-sm">24,000원</div>
-          </div>
-          <button class="heart_off"></button>
-        </div>
-        <div class="product_tag">
-          <img src="../images/img_product.png" alt="상품이미지">
-          <div class="product-info">
-            <div class="text-base">페피테일 참글루칸 12g</div>
-            <div class="text-sm">24,000원</div>
-          </div>
-          <button class="heart_off"></button>
-        </div>
-      </div>
-      <div class="content">
-        <div class="feed-header mt20">
-          <img src="../images/profile.png" width="40px" height="40px" />
-          <div class="text-sm">고양이집사</div>
-          <button class="btn-primary">팔로우</button>
-        </div>
-        <br />
-        <br />
-        <img src="../images/feed_image.png" alt="" width="350" height="330" />
-        <br />
-        <br />
-        <div class="feed-footer">
-          <div class="like">
-            <img src="../images/heart_off.svg" alt="" width="24" height="24" />
-            <div class="text-base">23</div>
-          </div>
-          <div class="comment">
-            <img src="../images/comment.svg" alt="" width="24" height="24" />
-            <div class="text-base">3</div>
-          </div>
-          <div class="share">
-            <div class="text-base">1시간전</div>
-            <img src="../images/share.svg" width="24px" height="24px" />
-          </div>
-        </div>
-        <div class="text-base mt15">순간포착!</div>
-<div class="tag-list">
-  <div class="text-base">태그</div>
-  <div class="text-base">#고양이</div>
-  <div class="text-base">#일상</div>
-</div>        
-      <div class="product_tag_list mt15">
-        <div class="product_tag">
-          <img src="../images/img_product.png" alt="상품이미지">
-          <div class="product-info">
-            <div class="text-base">페피테일 참글루칸 12g</div>
-            <div class="text-sm">24,000원</div>
-          </div>
-          <button class="heart_off"></button>
-        </div>
-        <div class="product_tag">
-          <img src="../images/img_product.png" alt="상품이미지">
-          <div class="product-info">
-            <div class="text-base">페피테일 참글루칸 12g</div>
-            <div class="text-sm">24,000원</div>
-          </div>
-          <button class="heart_off"></button>
-        </div>
-      </div>
+<div class="content mx20">
+  <div class="feed-header mt20">
+    <img src="../images/profile.png" width="40px" height="40px" />
+    <div class="text-sm">고양이집사</div>
+    <button class="btn-primary">팔로우</button>
+  </div>
+  <img src="../images/feed_image.png" alt="" class="mt20" width="350" height="330" />
+  <div class="feed-footer mt15">
+    <div class="like">
+      <img src="../images/heart_off.svg" alt="" width="24" height="24" />
+      <div class="text-base">23</div>
+    </div>
+    <div class="comment">
+      <img src="../images/comment.svg" alt="" width="24" height="24" />
+      <div class="text-base">3</div>
+    </div>
+    <div class="share">
+      <div class="text-base">1시간전</div>
+      <img src="../images/share.svg" width="24px" height="24px" />
+    </div>
+  </div>
+  <div class="text-base mt15">순간포착!</div>
+  <div class="tag-list">
+    <div class="text-base">태그</div>
+    <div class="text-base">#고양이</div>
+    <div class="text-base">#일상</div>
+  </div>
+</div>
+<div class="product_tag_list mt15 mx20L">
+  <div class="product_tag">
+    <img src="../images/img_product.png" alt="상품이미지">
+    <div class="product-info">
+      <div class="text-base">페피테일 참글루칸 12g</div>
+      <div class="text-sm">24,000원</div>
+    </div>
+    <button class="heart_off"></button>
+  </div>
+  <div class="product_tag">
+    <img src="../images/img_product.png" alt="상품이미지">
+    <div class="product-info">
+      <div class="text-base">페피테일 참글루칸 12g</div>
+      <div class="text-sm">24,000원</div>
+    </div>
+    <button class="heart_off"></button>
+  </div>
+</div>
 </body>
 </html>
