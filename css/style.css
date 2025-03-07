@@ -196,4 +196,11 @@ main {
 
 .mx20 {
   margin-inline: 20px;
+  @media (width < 390px) {
+    margin-inline: 16px;
+  }
+}
+
+.text-center {
+  text-align: center;
 }

@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/global.css" />
     <title>포인트_쿠폰교환소</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="../js/moon.js"></script>
+    <link rel="stylesheet" href="../css/global.css" />
 </head>
-<body>
-    <div class="h_type1">심쿵포인트</div>
+<body class="point_page">
+    <div class="h_type1 text-center mt20 mx20">심쿵포인트</div>
     <!--포인트 안내 배너-->
-    <div class="banner_point">
+    <div class="banner_point mt20 mx20">
         <div class="point_info h_type1">
           <div>현재 포인트</div>
-          <div>3,500P</div>
+          <div class="now">3,500P</div>
         </div>
         <div class="point_info text-base">
           <div>1주일 내 만료 예정 포인트</div>
@@ -20,14 +22,14 @@
         </div>
     </div>
     <!--탭-->
-    <nav>
+    <nav class="mt20">
         <ul class="tab-type1 scroll">
-            <li><button type="button">사용 내역</li>
-            <li><button type="button">포인트 충전</button></li>
-            <li><button type="button" class="active">쿠폰 교환소</button></li>
+            <li><button type="button" class="text-base">사용 내역</li>
+            <li><button type="button" class="text-base">포인트 충전</button></li>
+            <li><button type="button" class="active text-base">쿠폰 교환소</button></li>
         </ul>
     </nav>
-    <div class="filter_bar">
+    <div class="filter_bar mt20 mx20">
         <button class="btn-secondary text-base">피드</button>
         <button class="btn-subtle text-base">질문</button>
         <select class="clean-select">
@@ -35,7 +37,7 @@
           <option value="latest">최신순</option>
         </select>
     </div>
-    <div class="content">
+    <div class="content mt20 mx20">
         <div class="sample-list">
           <img src="../images/sample.png" width="60px" height="60px" />
           <div class="info">
@@ -76,10 +78,20 @@
               </div>
             </div>
           </div>
+          <div class="sample-list">
+            <img src="../images/sample.png" width="60px" height="60px" />
+            <div class="info">
+              <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+              <div class="text-button">
+                <div class="text-base">500P</div>
+                <button class="btn-primary" popovertarget="confirm_change">교환하기</button>
+              </div>
+            </div>
+          </div>
       </div>
 
       <!--교환 확인 팝업-->
-      <div popover id="confirm_change" class="popup">
+      <div popover id="confirm_change" class="popup-toast">
         <img
           src="../images/img_product.png"
           alt=""

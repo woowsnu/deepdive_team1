@@ -1,0 +1,11 @@
+faq-list {
+  summary {
+    list-style: none;
+    background-color: silver;
+  }
+  [open] {
+    summary {
+      background-color: pink;
+    }
+  }
+}

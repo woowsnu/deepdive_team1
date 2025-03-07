@@ -46,10 +46,7 @@ figure,
 figcaption {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
   /* font-family: "Noto Sans KR", sans-serif; */
->>>>>>> 3128cdf5fa94db11d5a7f19c0e192b398a5ca775
 }
 
 body,
@@ -129,7 +126,7 @@ textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0;
+  /* border-radius: 0; */
 }
 
 input[type="search"]::-webkit-search-decoration,

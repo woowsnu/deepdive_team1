@@ -1,3 +1,7 @@
+.point_page {
+  height: 100vh;
+}
+
 .banner_point {
   display: grid;
   gap: 15px;

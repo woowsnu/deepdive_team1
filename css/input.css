@@ -9,6 +9,12 @@
   --textColor: var(--color-main-text);
 }
 
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
 .input-enabled {
   display: flex;
   padding: 1px 14px;
@@ -18,10 +24,10 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 40px;
-  border-radius: 0.5rem;
-  border: 3px solid var(--color-button-text3);
+  border: 1px solid var(--color-button-text3);
   cursor: pointer;
   width: 100%;
+  border-radius: 16px;
 }
 
 .input-focus {
@@ -33,11 +39,11 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 40px;
-  border-radius: 0.5rem;
-  border: 3px solid var(--color-button-text3);
+  border: 1px solid var(--color-button-text3);
   border-color: var(--color-button-color4);
   cursor: pointer;
   width: 100%;
+  border-radius: 16px;
 }
 
 .input-disabled {
@@ -50,12 +56,23 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 40px;
-  border-radius: 0.5rem;
+  border-radius: 16px;
   width: 100%;
   &:disabled {
     color: var(--button-text-1);
     cursor: not-allowed;
   }
+}
+
+.input-button {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  height: 100%;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .switch {
@@ -117,6 +134,7 @@
     }
   }
 }
+
 .search-box {
   display: flex;
   height: 44px;
