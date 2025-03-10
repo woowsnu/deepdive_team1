@@ -32,3 +32,12 @@ gsap.timeline().from(".img_list_item", {
   y: 100,
   stagger: 0.2,
 });
+
+gsap.from(".search-container", {
+  opacity: 0,
+  y: 20,
+});
+
+gsap.timeline().from(".chip-container", {
+  x: 100,
+});
