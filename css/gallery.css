@@ -269,18 +269,3 @@
   overflow: auto;
   gap: 10px;
 }
-
-
-.sample-list-check {
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  gap: 10px;
-  border-bottom: 1px solid var(--color-formdc);
-  padding: 20px 0;
-  .text-base {
-    white-space: nowrap;
-  }
-  .text-sm {
-    white-space: nowrap;
-  }
-}

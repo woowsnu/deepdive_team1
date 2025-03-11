@@ -1,5 +1,5 @@
 .text-base {
-  color: #000;
+  color: var(--color-main-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 20.72px;
@@ -7,7 +7,7 @@
 }
 
 .text-sm {
-  color: #000;
+  color: var(--color-main-text);
   font-size: 14px;
   font-weight: 400;
   line-height: 20.72px;
@@ -15,7 +15,7 @@
 }
 
 .text-xs {
-  color: #000;
+  color: var(--color-main-text);
   font-size: 12px;
   font-weight: 400;
   line-height: 20.72px;
@@ -23,7 +23,7 @@
 }
 
 .text-xxs {
-  color: #000;
+  color: var(--color-main-text);
   font-size: 10px;
   font-weight: 400;
   line-height: 20.72px;
