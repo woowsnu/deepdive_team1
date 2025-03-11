@@ -7,17 +7,58 @@
     <title>글쓰기_상품태그</title>
   </head>
   <body>
-    <img src="../images/ico_arrow.svg" alt="x" />
-    <div class="text-base">상품 태그 추가</div>
-    <div class="input-container">
-      <input type="text" class="input-enabled" />
-      <button class="input-button">
-        <img src="../images/ico-arrow-down.svg" />
-      </button>
+    <!--헤더-->
+    <div class="header-ico-text mt20 mx20">
+      <img src="../images/ico_arrow.svg" alt="x" />
+      <div class="h_type3">상품 태그 추가</div>
     </div>
-    <div>
-      <div>내가 구매한 상품</div>
-      <div>선택(0/30)</div>
+    <hr class="header-divider mt20">
+    <!--검색-->
+    <div class="input-container mt20 mx20">
+      <div class="search-box">
+        <input type="text" placeholder="태그를 검색해보세요!" />
+        <img src="/images/ico_search.svg" alt="검색" class="search-icon" />
+      </div>
+    </div>
+    <div class="txt-col-2 mt20 mx20">
+      <div class="text-base">내가 구매한 상품</div>
+      <div class="text-sm">선택(0/30)</div>
+    </div>
+    <div class="content mx20">
+      <div class="sample-list-check mt20">
+        <img
+          class="child"
+          src="../images/sample.png"
+          width="60px"
+          height="60px"
+        />
+        <div class="child">
+          <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+          <div class="text-base">500P</div>
+        </div>
+        <div class="child">
+          <input type="checkbox" id="check1" class="checkbox" /><label
+            for="check1"
+          ></label>
+        </div>
+      </div>
+      <div class="sample-list-check mt20">
+        <img
+          class="child"
+          src="../images/sample.png"
+          width="60px"
+          height="60px"
+        />
+        <div class="child">
+          <div class="text-sm">[3개]체험팩 촉촉트릿 북어 1P</div>
+          <div class="text-base">500P</div>
+        </div>
+        <div class="child">
+          <input type="checkbox" id="check2" class="checkbox" /><label
+            for="check2"
+          ></label>
+        </div>
+      </div>
     </div>
   </body>
 </html>

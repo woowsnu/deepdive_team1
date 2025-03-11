@@ -17,8 +17,8 @@
   clip: rect(1px, 1px, 1px, 1px);
   + label {
     display: inline-flex;
-    padding-left: var(--checkPl);
-    background: var(--checkoffImage) no-repeat left;
+    padding-left: 20px;
+    background: url(../images/ico_check_off.svg) no-repeat left;
     font-size: var(--checkfontSize);
     color: var(--checkbeforeColor);
     height: var(--checkHeight);
@@ -26,7 +26,7 @@
   &:checked {
     + label {
       color: var(--checkafterColor);
-      background: var(--checkonImage) no-repeat left;
+      background: url(../images/ico_check_on.svg) no-repeat left;
     }
   }
 }

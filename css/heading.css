@@ -1,5 +1,5 @@
 .h_type1 {
-  color: #2d3035;
+  color: var(--color-main-text);
   font-size: 20px;
   font-weight: 700;
   line-height: 23.68px;
@@ -7,7 +7,7 @@
 }
 
 .h_type2 {
-  color: #2d3035;
+  color: var(--color-main-text);
   font-size: 18px;
   font-weight: 700;
   line-height: 23.68px;
@@ -15,7 +15,7 @@
 }
 
 .h_type3 {
-  color: #2d3035;
+  color: var(--color-main-text);
   font-size: 16px;
   font-weight: 700;
   line-height: 23.68px;
@@ -23,7 +23,7 @@
 }
 
 .h_type4 {
-  color: #2d3035;
+  color: var(--color-main-text);
   font-size: 14px;
   font-weight: 700;
   line-height: 23.68px;
