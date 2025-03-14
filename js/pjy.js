@@ -1,32 +1,38 @@
 gsap
   .timeline()
-  .from(".tab-type1 li", {
+  .from(".ani1-1 li", {
     opacity: 0,
     y: 20,
     stagger: 0.3,
   })
-  .from(".search-box", {
+  .from(".ani1-2", {
     opacity: 0,
     y: 20,
   })
-  .from(".content", {
+  .from(".ani1-3", {
+    opacity: 0,
+    y: 20,
+  })
+  .from(".ani1-6", {
     opacity: 0,
     y: 150,
   })
-  .from(".supporters-post", {
+  .from(".ani1-4", {
+    opacity: 0,
+    x: 50,
+    stagger: 0.1,
+  })
+  .from(".ani1-5", {
     opacity: 0,
     x: 50,
     stagger: 0.1,
   })
   .from(".img_list_item", {
+    opacity: 0,
     y: 100,
     stagger: 0.2,
   })
-  .from(".search-container", {
-    opacity: 0,
-    y: 20,
-  })
-  .from(".product_tag", {
+  .from(".product_tag_list", {
     y: 20,
     opacity: 0,
     stagger: 0.1,
@@ -34,10 +40,22 @@ gsap
     ease: "power2.out",
     scrollTrigger: {
       trigger: ".product_tag",
-      markers: true,
+      // markers: true,
       start: "top 70%",
     },
+  });
+
+gsap
+  .timeline()
+  .from(".ani2-1", {
+    opacity: 0,
+    y: 20,
+  })
+  .from(".ani2-2", {
+    opacity: 0,
+    y: 20,
   })
   .from(".chip-container", {
-    x: 100,
+    opacity: 0,
+    x: 20,
   });

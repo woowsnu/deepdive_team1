@@ -9,7 +9,7 @@
   --py: 4px;
   --fontSize: 16px;
   --rounded: 100px;
-  --gap: 5px;
+  --gap: 10px;
 
   display: flex;
   align-items: center;
