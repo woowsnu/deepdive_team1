@@ -32,20 +32,8 @@ gsap.fromTo(
     scrollTrigger: {
       trigger: ".ani1",
       markers: true,
-      // start: "top center",
       start: "top 85%",
       end: "bottom 70%",
     },
   },
 );
-
-// “.ani1”, {
-//   x:-30,
-// Opacity:0},{
-// X:0,
-// Opacity:1,
-// Duration1,
-// scrollTrigger: {
-// Trigger:”.ani1”,
-// Markers: true,
-// Start: “top center”,}})
